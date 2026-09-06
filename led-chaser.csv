@@ -1,0 +1,8 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Exclude from Simulation","Exclude from Position Files","Footprint","Datasheet"
+"C1,C2","2","100nF","","","","","${EXCLUDE_FROM_POS_FILES}","Capacitor_SMD:C_0603_1608Metric",""
+"D1,D2,D3,D4,D5,D6,D7,D8,D9","9","LED","","","","","${EXCLUDE_FROM_POS_FILES}","LED_SMD:LED_0805_2012Metric",""
+"J1","1","USB_A","","","","","${EXCLUDE_FROM_POS_FILES}","CH552G:USB-A",""
+"R1","1","10K","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_SMD:R_0603_1608Metric",""
+"R2,R3,R4,R5,R6,R7,R8,R9,R10","9","330R","","","","","${EXCLUDE_FROM_POS_FILES}","Resistor_SMD:R_0603_1608Metric",""
+"SW1","1","SW_Push","","","","","${EXCLUDE_FROM_POS_FILES}","Button_Switch_SMD:SW_SPST_TS-1088-xR020",""
+"U1","1","CH552G","","","","","${EXCLUDE_FROM_POS_FILES}","Package_SO:JEITA_SOIC-16_3.9x9.9mm_P1.27mm","https://github.com/WeActStudio/WeActStudio.CH552CoreBoard/blob/master/Datasheet/CH552DS1_en.PDF"
