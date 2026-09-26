@@ -22,6 +22,17 @@ A custom-designed, programmable USB dongle featuring a 9-LED grid, powered by th
 ### case
 <img width="192" height="131" alt="Screenshot 2026-09-05 211410" src="https://github.com/user-attachments/assets/0571dcf7-e421-4e0c-88c9-8f074ddf8dc7" />
 
+## Bill of Materials (BOM)
+
+| Designator | Component Name | Value/Specs | Footprint | LCSC Part # | Notes / Sourcing |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **U1** | CH552G | 8-bit MCU, 16KB Flash | SOP-16 | `C111292` | Microcontroller |
+| **C1, C2** | Ceramic Capacitor | 100nF (0.1uF) | 0603 | `C14663` | Decoupling Caps |
+| **R1** | Resistor | 10kΩ | 0603 | `C25804` | Pull-up Resistor |
+| **R2, R3, R4, R5, R6, R7, R8, R9, R10** | Resistor | 330Ω | 0603 | `C23138` | Current limiting for LEDs |
+| **D1, D2, D3, D4, D5, D6, D7, D8, D9** | LED | Standard LED | 0805 | `C84256` | Indicator/Matrix LEDs |
+| **J1** | USB Type-A Port | Male, 4-Pin, SMD | *See Footprint*| — | *Inventory Shortage* (Solder manually or substitute) |
+| **SW1** | Tactile Switch | Push Button | *See Footprint*| — | *Inventory Shortage* (Solder manually or substitute) |
 
 ##  Manufacturing & Assembly
 1. **PCB Fabrication:** Download the `.zip` file from the `/PCB` folder and upload it to your preferred PCB manufacturer. 
